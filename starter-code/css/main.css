@@ -20,12 +20,15 @@ nav {
     flex-direction: row;
     
 }
+em{
+    color: orange;
+}
 .spotiraffe-logo img{
 height: 80px;
 width: 60px;
 }
 .menu ul{
-    margin-left: 500px;
+    margin-left: 200px;
 }
 .menu li{
     display: inline-block;
