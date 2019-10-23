@@ -140,17 +140,18 @@ width: 60px;
 }
 .section4-left {
   background-color: rgb(255, 255, 0);
-  width: 40%;
+  /* width: 40%; */
   position: center;
   margin: auto;
 
 }
 .section4-rigth {
-  position: center:
+  /* width: 100px; */
+  position: center;
   margin: auto;
-  
-  
-
+}
+.section4-rigth img {
+    height: 500px;
 }
 @keyframes example {
     0% {
