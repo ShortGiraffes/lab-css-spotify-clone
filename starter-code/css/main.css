@@ -34,9 +34,11 @@ width: 60px;
     color: orangered;
 }
 #sec1{
+    margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Geneva;
 
 }
 
@@ -45,6 +47,8 @@ width: 60px;
     text-decoration: underline orange;
     margin: 0 0 10px 0;
 }
+
+
 .major{
     display: flex;
     flex-direction: row;
@@ -64,6 +68,7 @@ width: 60px;
 
 #million-gir{
     width: 200px;
+    margin-bottom: 30px;
 }
 
 #hd-giraffes{
@@ -75,6 +80,7 @@ width: 60px;
 }
  .container>p{
      color: orange;
+     text-align: center;
  }
 
 .header {
@@ -109,4 +115,12 @@ width: 60px;
 .overlay{
   backdrop-filter: brightness(50%);
   height:600px;
+}
+
+.section4 {
+  background-color: rgb(255, 255, 0);
+  height: 600px;
+  width: 95%;
+  position: center;
+  margin: auto;
 }
