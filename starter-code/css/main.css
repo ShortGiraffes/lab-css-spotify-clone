@@ -36,6 +36,14 @@ width: 60px;
     font-size: 20px;
     color: orangered;
 }
+.animate img{
+    height: 80px;
+    width: 60px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 #sec1{
     margin: 30px;
     display: flex;
@@ -139,4 +147,14 @@ width: 60px;
   position: center;
   margin: auto;
 }
-
+@keyframes example {
+    0% {
+        left: 20px;
+    }
+    50% {
+        left: 40px;
+    }
+    100% {
+        left: 0px;
+    }
+}
