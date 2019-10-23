@@ -126,17 +126,23 @@ width: 60px;
   width: 95%;
   position: center;
   margin: auto;
+  border: solid 10px black;
+  display: flex;
+  flex-direction: row;
 }
 .section4-left {
   background-color: rgb(255, 255, 0);
   width: 40%;
   position: center;
   margin: auto;
+
 }
 .section4-rigth {
-  background-color: rgb(255, 255, 0);
-  width: 40%;
+  width: 100px;
   position: center;
   margin: auto;
+  
+  
+
 }
 
