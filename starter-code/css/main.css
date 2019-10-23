@@ -81,7 +81,7 @@ White: #FFF
   font-family: Geneva;
   margin: auto;
   width: 55%;
-  height: 100%;
+  height: 20%;
 }
 
 .overlay{
@@ -96,3 +96,16 @@ White: #FFF
   position: center;
   margin: auto;
 }
+.section4-left {
+  background-color: rgb(255, 255, 0);
+  width: 40%;
+  position: center;
+  margin: auto;
+}
+.section4-rigth {
+  background-color: rgb(255, 255, 0);
+  width: 40%;
+  position: center;
+  margin: auto;
+}
+
