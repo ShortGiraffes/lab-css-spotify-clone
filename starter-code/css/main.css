@@ -19,6 +19,8 @@ White: #FFF
     text-decoration: underline orange;
     margin: 0 0 10px 0;
 }
+
+
 .major{
     display: flex;
     flex-direction: row;
@@ -49,6 +51,7 @@ White: #FFF
 }
  .container>p{
      color: orange;
+     text-align: center;
  }
 
 .header {
