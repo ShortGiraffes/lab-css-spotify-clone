@@ -6,4 +6,28 @@ Green: #00B172
 White: #FFF
 
 */
-
+body, h1, main {
+    margin: 0;
+}
+h2 {
+    color: orangered;
+}
+nav {
+    height: 5em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
+.spotiraffe-logo img{
+height: 80px;
+width: 60px;
+}
+.menu {
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 20px;
+}
