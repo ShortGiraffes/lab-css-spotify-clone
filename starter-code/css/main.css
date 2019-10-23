@@ -14,16 +14,15 @@ White: #FFF
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(50%);
 }
 
 .header-text {
   color: white;
   text-align: center;
   padding-top: 150px;
-  font-size: 70px;
+  font-size: 60px;
   font-family: Geneva;
-  margin: 0;
+  margin: 10px;
 }
 
 .header-text2 {
@@ -34,4 +33,10 @@ White: #FFF
   font-family: Geneva;
   margin: auto;
   width: 55%;
+  height: 100%;
+}
+
+.overlay{
+  backdrop-filter: brightness(50%);
+  height:600px;
 }
