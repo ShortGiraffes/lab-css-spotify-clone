@@ -6,12 +6,39 @@ Green: #00B172
 White: #FFF
 
 */
+body, h1, main {
+    margin: 0;
+}
 
+h2 {
+    color: orangered;
+}
+nav {
+    height: 5em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.spotiraffe-logo img{
+height: 80px;
+width: 60px;
+}
+.menu ul{
+    margin-left: 500px;
+}
+.menu li{
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 20px;
+    color: orangered;
+}
 #sec1{
     margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Geneva;
 
 }
 
@@ -41,6 +68,7 @@ White: #FFF
 
 #million-gir{
     width: 200px;
+    margin-bottom: 30px;
 }
 
 #hd-giraffes{
