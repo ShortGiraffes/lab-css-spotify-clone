@@ -12,6 +12,7 @@ White: #FFF
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Geneva;
 
 }
 
@@ -41,6 +42,7 @@ White: #FFF
 
 #million-gir{
     width: 200px;
+    margin-bottom: 30px;
 }
 
 #hd-giraffes{
