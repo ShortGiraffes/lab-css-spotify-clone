@@ -134,7 +134,7 @@ width: 60px;
 
 .section4 {
   background-color: rgb(255, 255, 0);
-  height: 600px;
+  height: 700px;
   width: 95%;
   position: center;
   margin: auto;
@@ -168,3 +168,26 @@ width: 60px;
         left: 0px;
     }
 }
+
+@media only screen and (max-width : 768px) {
+
+    .menu{
+        display: none;
+    }
+   
+    .major{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section4{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .section4-rigth img{
+        height: 300px
+    }
+}
+
