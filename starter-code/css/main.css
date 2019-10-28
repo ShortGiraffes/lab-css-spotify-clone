@@ -31,6 +31,9 @@ em{
 height: 80px;
 width: 60px;
 }
+.main-content {
+    padding: 2px;
+}
 .menu ul{
     /* margin-left: 200px; */
     display: flex;
@@ -166,15 +169,19 @@ width: 60px;
         left: 0px;
     }
     50% {
-        left: 100px;
+        left: 50px;
     }
     100% {
         left: 0px;
     }
 }
-
+@media only screen and (max-width : 1180px) {
+    em {
+        display: none;
+    }
+}
 @media only screen and (max-width : 768px) {
-
+  
     .menu{
         display: none;
     }
